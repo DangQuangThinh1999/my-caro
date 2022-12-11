@@ -1,0 +1,96 @@
+body {
+  font: 34px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol,
+ul {
+  padding-left: 50px;
+}
+
+/* .board-content {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 20px;
+} */
+
+.square {
+  background: #fff;
+  border: 1px solid rgb(208, 9, 9);
+  float: left;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 164px;
+  height: 164px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 164px;
+}
+
+.hover:hover {
+  outline: none;
+  background-color: #ffcdb2;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+/* form */
+.form-action {
+  margin-left: 30px;
+}
+.form-action label {
+  display: block;
+  font-size: 60px;
+  font-weight: bold;
+}
+.form-action input {
+  display: block;
+
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.form-action .input-one {
+  color: red;
+}
+.form-action .input-two {
+  color: blue;
+}
+.submit {
+  margin: 30px;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  padding: 30px;
+}
+/* status  */
+
+.player,
+.color-one,
+.color-two,
+.status,
+.name {
+  font-weight: bold;
+  font-size: 60px;
+}
+.color-one {
+  color: Red;
+}
+.color-two {
+  color: blue;
+}
+.name {
+  color: #577399;
+}

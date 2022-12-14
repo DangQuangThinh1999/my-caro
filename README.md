@@ -80,3 +80,12 @@ edit(resolve)
 git commit
 
 git push origin "branch-new"
+
+
+-create new brand
+git brand -b "new brand"
+
+- go to brand
+git checkout "name-brand"
+
+

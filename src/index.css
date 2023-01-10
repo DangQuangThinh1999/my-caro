@@ -1,32 +1,29 @@
 body {
-  font: 34px "Century Gothic", Futura, sans-serif;
+  font-family: 'Raleway',sans-serif;
+  font: 34px ;
   margin: 20px;
 }
-
+input {
+  margin: auto auto;
+}
 ol,
 ul {
   padding-left: 50px;
 }
 
-/* .board-content {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-gap: 20px;
-} */
-
 .square {
   background: #fff;
   border: 1px solid rgb(208, 9, 9);
   float: left;
-  font-size: 54px;
+  font-size: 30px;
   font-weight: bold;
-  line-height: 164px;
-  height: 164px;
+  line-height: 30px;
+  height: 30px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 164px;
+  width: 30px;
 }
 
 .hover:hover {
@@ -34,24 +31,20 @@ ul {
   background-color: #ffcdb2;
 }
 
-.kbd-navigation .square:focus {
-  background: #ddd;
-}
-
-.game {
+.wrapper {
   display: flex;
 }
-
 .game-info {
   margin-left: 20px;
 }
 /* form */
 .form-action {
-  margin-left: 30px;
+  width: 500px;
+  margin: auto auto;
 }
 .form-action label {
   display: block;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: bold;
 }
 .form-action input {
@@ -59,7 +52,7 @@ ul {
 
   padding: 20px 20px;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
 }
 .form-action .input-one {
@@ -68,12 +61,22 @@ ul {
 .form-action .input-two {
   color: blue;
 }
+.form-action .input-amount {
+  color: rgb(13, 123, 39);
+}
 .submit {
   margin: 30px;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
+  background-color: #22223b;
+  color: #f2e9e4;
+  border-radius: 7%;
+}
+.submit:hover {
+  background-color: #eae2b7;
+  color: #003049;
 }
 /* status  */
 
@@ -83,7 +86,7 @@ ul {
 .status,
 .name {
   font-weight: bold;
-  font-size: 60px;
+  font-size: 30px;
 }
 .color-one {
   color: Red;

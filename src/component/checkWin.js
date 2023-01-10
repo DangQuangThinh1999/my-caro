@@ -114,7 +114,6 @@ const checkWindow = (array) => {
       }
       // -------------------------- chặn 2 đầu -----------------------
       if (countCheotren === 4) {
-        console.log(j + 2, i + j + 2);
         if (i + j + 2 < array.length && i + j - 4 >= tempCheotren) {
           if (
             array[j][i + j] !== array[j + 2][i + j + 2] &&

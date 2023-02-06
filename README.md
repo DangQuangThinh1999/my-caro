@@ -76,7 +76,7 @@ git fetch dowload  //all file and commit
 
 git merge master    // merge brand master
 
-git pull master    //download all file master need resolve conflicts
+git pull origin master    //download all file master need resolve conflicts
 
 edit(resolve)
 

@@ -69,17 +69,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-git fetch
 
-git merge master
+Demo: Resolving Git Merge Conflicts
 
-git pull
+git fetch dowload  //all file and commit
+
+git merge master    // merge brand master
+
+git pull master    //download all file master need resolve conflicts
 
 edit(resolve)
 
 git commit
 
-git push origin "branch-new"
+git push origin "branch-new" // brand merge master
 
 
 -create new brand

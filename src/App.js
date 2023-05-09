@@ -65,7 +65,7 @@ function App() {
     <div className="App">
       <div className="game">
         <h1 style={{ fontSize: "30px", color: "#bc6c25" }}>
-          LUẬT CHẶN 2 ĐẦU (5 ô liên tục & 6 ô not win)
+          LUẬT CHẶN 2 ĐẦU (5 ô liên tục và 6 ô not win)
         </h1>
         {!show ? (
           <div className="form-action">
